@@ -1,5 +1,9 @@
 package rocks.zipcodewilmington.animals;
 
+import org.junit.Assert;
+import org.junit.Test;
+import rocks.zipcodewilmington.animals.animal_storage.CatHouse;
+
 import java.util.Date;
 
 /**
@@ -13,4 +17,7 @@ public class Dog extends Mammal {
     public String speak() {
         return "bark!";
     }
+
+
+
 }
